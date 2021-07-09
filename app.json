@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "home",
-    "slug": "home",
-    "version": "1.0.0",
+    "name": "controlled",
+    "slug": "controlled",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,11 +13,11 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nheyland.controlled",
+      "buildNumber": "1.0.2"
     },
     "android": {
       "adaptiveIcon": {
